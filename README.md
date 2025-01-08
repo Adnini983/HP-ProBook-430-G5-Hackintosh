@@ -1,7 +1,7 @@
 # HP-ProBook-430-G5-黑苹果
 
 应用于HP ProBook 430 G5的OpenCore 1.0.3的黑苹果引导 支持macOS Sequoia
-![](http://)
+![](Image.png)
 
 ##### 配置清单:
 - 英特尔 Core i5-8250U CPU (KabyLake R)
