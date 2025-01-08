@@ -1,6 +1,7 @@
 # HP-ProBook-430-G5-黑苹果
 
 应用于HP ProBook 430 G5的OpenCore 1.0.3的黑苹果引导 支持macOS Sequoia
+
 注意：此EFI不含三码 实际使用时请自行使用[OCAT](https://github.com/ic005k/OCAuxiliaryTools)生成
 ![](Image.png)
 
