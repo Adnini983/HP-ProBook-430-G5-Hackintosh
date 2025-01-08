@@ -1330,7 +1330,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02947101GUJP4F1M</string>
+                <string>AAAAAAAAAAAAAAAAA</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1344,9 +1344,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro15,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02ZQ0CQKGYG</string>
+                <string>AAAAAAAAAAAA</string>
                 <key>SystemUUID</key>
-                <string>44D3262C-0472-497A-A7F7-2BD8C63215F0</string>
+                <string>AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
