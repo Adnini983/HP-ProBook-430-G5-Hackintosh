@@ -25,8 +25,8 @@
 - 禁用 快速启动(Fast Boot)
 - 启用 USB存储启动(USB Storage Boot)
 - 禁用 网络PXE引导(Network PXE Boot)
-- 可选禁用 来电自启动(Power On when AC Detected)
-- 可选禁用 开盖自启动(Power On when Lid is Opened)
+- 禁用 来电自启动(Power On when AC Detected)
+- 禁用 开盖自启动(Power On when Lid is Opened)
 - 调整 UEFI引导顺序(UEFI Boot Order)
 - 禁用 传统引导顺序(Legacy Boot Order)
 - 禁用 传统引导支持(Legacy Boot)
@@ -43,7 +43,7 @@
 - 启用 HP应用程序与驱动程序(HP Application Driver)
 - 启用 有线网络控制器(LAN Controller)
 - 禁用 网络唤醒(Wake on LAN)
-- 调整 核显显存(Video memory)为128MB-512MB
+- 调整 核显显存(Video memory)为512MB
 - 启用 音频设备(Audio Device)
 - 启用 麦克风(Microphone)
 - 启用 内置扬声器(Internal Speakers)
@@ -56,7 +56,7 @@
 - 禁用 电池供电下的局域网唤醒(Wake on LAN in Battery Mode)
 - 启用 升压转换器(Boost Converter)
 - 启用 内置摄像头(Integrated Camera)
-- 可选禁用 SD读卡器(Media Card Reader)
+- 启用 SD读卡器(Media Card Reader)
 - 启用 左USB口(Left USB Ports)
 - 启用 右USB口(Right USB Ports)
 - 启用 右USB口1(Right USB Port 1)
@@ -72,13 +72,13 @@
 - 启用 电源控制器(Power Control)
 
 ##### 可以工作的部分:
-- macOS Sequoia
+- macOS Sonoma - macOS Sequoia
 - 英特尔核显
 - 1366 x 768最大分辨率
 - USB 3.0接口和Type-C接口
 - 有线网口
 - 内建的扬声器，麦耳机与麦克风。
-- 睡眠与唤醒，均可工作在默认的电源管理模式下。
+- 睡眠与唤醒不完美，离电情况下盒盖可能会睡死。
 - Wi-Fi连接(需要使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod)打补丁)
 - 蓝牙功能
 - 电池读数
@@ -87,14 +87,14 @@
 - 使用键盘进行音量调整
 - 触控板可多点触控
 - 内置摄像头
-
-##### 未测试的部分
-- HDMI 音视频输出
-- 蓝牙音响耳机
-- Apple ID登录与登出 以及相关应用(FaceTime, iMessage, App Store)
 - SD卡读卡器
 
+##### 未测试的部分
+- 蓝牙音响耳机
+- Apple ID登录与登出 以及相关应用(FaceTime, iMessage, App Store)
+
 ##### 不可工作的部分:
+- HDMI 音视频输出
 - 指纹读取器
 - 空投与接力(需要更换为博通网卡且使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod)打补丁)
 
