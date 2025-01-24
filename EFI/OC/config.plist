@@ -358,6 +358,8 @@
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AACbPg==</data>
+                    <key>AAPL00,override-no-connect</key>
+                    <data>AP///////wAJ5fgGAAAAAAEaAQSlHRB4AviQnllVnCYaUFQAAAABAQEBAQEBAQEBAQEBAQEBPhxWoFAAFjAwIDYAJaUQAAAanhZWoFAAFjAwIDYAJaUQAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgARQ/8PPOZBRjrmAAAAAAM=</data>
                     <key>device-id</key>
                     <data>mz4AAA==</data>
                     <key>framebuffer-fbmem</key>
@@ -687,13 +689,31 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>USBInjectAll.kext</string>
+                    <string>USBToolBox.kext</string>
                     <key>Comment</key>
-                    <string>V0.8.1 | By RapidEFI-Pro</string>
+                    <string>V1.1.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBInjectAll</string>
+                    <string>Contents/MacOS/USBToolBox</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>UTBMap.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1133,7 +1153,38 @@
             <key>Force</key>
             <array/>
             <key>Patch</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Base</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string>Enable TRIM for SSD</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>AEFQUExFIFNTRAA=</data>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IOAHCIBlockStorage</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>Replace</key>
+                    <data>AAAAAAAAAAAAAAA=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+            </array>
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>

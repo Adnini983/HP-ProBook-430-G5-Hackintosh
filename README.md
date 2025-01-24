@@ -78,7 +78,7 @@
 - USB 3.0接口和Type-C接口
 - 有线网口
 - 内建的扬声器，麦耳机与麦克风。
-- 睡眠与唤醒不完美，离电情况下盒盖可能会睡死。
+- 睡眠与唤醒(需要使用[HiDPI脚本](https://github.com/xzhih/one-key-hidpi)注入EDID)。
 - Wi-Fi连接(需要使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod)打补丁)
 - 蓝牙功能
 - 电池读数
@@ -96,5 +96,6 @@
 ##### 不可工作的部分:
 - HDMI 音视频输出
 - 指纹读取器
+- iPhone镜像
 - 空投与接力(需要更换为博通网卡且使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod)打补丁)
 
