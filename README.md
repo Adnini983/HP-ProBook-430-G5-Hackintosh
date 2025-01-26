@@ -78,7 +78,12 @@
 - USB 3.0接口和Type-C接口
 - 有线网口
 - 内建的扬声器，麦耳机与麦克风。
-- 睡眠与唤醒(需要使用[HiDPI脚本](https://github.com/xzhih/one-key-hidpi)注入EDID)。
+- 睡眠与唤醒不完美，需要使用终端关闭睡眠功能
+```
+sudo pmset -a sleep 0
+sudo pmset -a hibernatemode 0
+sudo pmset -a disablesleep 1
+```
 - Wi-Fi连接(需要使用[OCLP-Mod](https://github.com/laobamac/OCLP-Mod)打补丁)
 - 蓝牙功能
 - 电池读数
